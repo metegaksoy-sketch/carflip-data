@@ -1,5 +1,5 @@
 {
-  "version": "2.1",
+  "version": "2.2",
   "updated": "2026-06-10",
   "description": "CarFlip detection keyword library for Facebook Marketplace seller descriptions. Synthesized from 5 AI analyses + 80 real listings.",
   "_philosophy": {
@@ -58,7 +58,7 @@
     },
     "title_caution": {
       "severity": "YELLOW",
-      "cost_estimate": "Rebuilt title alone: resale value drops 20-30%, financing difficult",
+      "cost_estimate": "Rebuilt title: resale ~30% below clean (frame damage 40–50%); financing/insurance harder. Deal value below is already discounted ~30%.",
       "verify_question": "Why was it rebuilt? Can I see the original damage report?",
       "note": "If car drives fine and is priced for rebuilt status, can still be flipped. Becomes RED if combined with driving symptoms.",
       "english": [
@@ -278,7 +278,7 @@
     },
     "accident_minor": {
       "severity": "YELLOW",
-      "cost_estimate": "Body work: $500-$2,000 depending on panel",
+      "cost_estimate": "Body/collision: bumper $300–$700, hood $400–$900, fender $300–$700, paint varies. Verify no frame/structural damage.",
       "verify_question": "Was airbag deployed? Any frame impact?",
       "english": [
         "hood damage",
@@ -298,7 +298,33 @@
         "involved in a crash",
         "car got a hit",
         "got a hit",
-        "previous collision"
+        "previous collision",
+        "hit a deer",
+        "hit a pole",
+        "hit a curb",
+        "hit a tree",
+        "hit a sign",
+        "needs front bumper",
+        "needs a front bumper",
+        "needs new front bumper",
+        "needs rear bumper",
+        "needs bumper",
+        "needs a bumper",
+        "needs new bumper",
+        "needs hood",
+        "needs a hood",
+        "needs new hood",
+        "needs fender",
+        "needs a fender",
+        "front end damage",
+        "front-end damage",
+        "needs body work",
+        "body work needed",
+        "collision damage",
+        "cosmetic damage",
+        "needs paint work",
+        "bumper damage",
+        "minor body damage"
       ],
       "spanish": [
         "golpe en el cofre",
@@ -307,7 +333,17 @@
         "chocado por detrás",
         "chocado por atras",
         "accidente menor",
-        "lo chocaron"
+        "lo chocaron",
+        "chocó",
+        "choco",
+        "chocó con",
+        "necesita defensa",
+        "necesita cofre",
+        "daño frontal",
+        "golpe al frente",
+        "necesita pintura",
+        "necesita capó",
+        "golpe al cofre"
       ]
     },
     "history_critical": {
@@ -1239,7 +1275,16 @@
         "minor accident",
         "fender bender",
         "previously wrecked",
-        "had an accident"
+        "had an accident",
+        "over heat",
+        "over heats",
+        "over heating",
+        "overheat",
+        "over-heat",
+        "over heated",
+        "overheated",
+        "overheating after",
+        "runs hot after"
       ],
       "spanish": [
         "se calienta",
@@ -1264,7 +1309,11 @@
         "bomba de gasolina",
         "brazo de control",
         "sello trasero",
-        "alternador malo"
+        "alternador malo",
+        "se recalienta",
+        "recalienta",
+        "se calienta despues",
+        "calienta mucho"
       ]
     },
     "diesel_emissions": {
