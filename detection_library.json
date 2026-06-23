@@ -1,5 +1,5 @@
 {
- "version": "4.34",
+ "version": "4.35",
  "updated": "2026-06-21",
  "description": "CarFlip detection keyword library for Facebook Marketplace seller descriptions. Synthesized from 5 AI analyses + 80 real listings.",
  "_philosophy": {
@@ -284,7 +284,17 @@
     "Timing chain tensioner failure",
     "Timing chain guide broken",
     "timing belt broke",
-    "Timing belt snapped"
+    "Timing belt snapped",
+    "needs new pistons",
+    "needing new pistons",
+    "needs pistons",
+    "needing pistons",
+    "needs engine rebuild",
+    "engine needs rebuild",
+    "needs a new engine",
+    "rod knocking",
+    "thrown a rod",
+    "threw a rod"
    ],
    "spanish": [
     "motor fundido",
