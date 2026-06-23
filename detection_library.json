@@ -1,5 +1,5 @@
 {
-  "version": "4.40",
+  "version": "4.42",
   "updated": "2026-06-21",
   "description": "CarFlip detection keyword library for Facebook Marketplace seller descriptions. Synthesized from 5 AI analyses + 80 real listings.",
   "_philosophy": {
@@ -73,16 +73,12 @@
         "carro salvage",
         "recompra por ley limón",
         "título por daño de agua",
-        "gravamen",
-        "gravamen en el título",
         "título perdido",
         "título de chatarra",
         "salvamento previo",
         "recuperado de robo",
         "título por granizo",
         "título por incendio",
-        "título de otro estado",
-        "título duplicado",
         "título no reconstruible",
         "salvamento reconstruible",
         "lavado de título",
@@ -120,7 +116,11 @@
         "titulo reconstruido",
         "titulo rebuilt",
         "título rebuilt",
-        "previamente salvamento"
+        "previamente salvamento",
+        "gravamen",
+        "gravamen en el título",
+        "título de otro estado",
+        "título duplicado"
       ],
       "resale_impact": "out-of-state/pending/duplicate: 10-20% softer, harder to finance",
       "resale_haircut_pct": [
@@ -2582,8 +2582,7 @@
         "excellent maintenance history",
         "up to date on maintenance",
         "recent service",
-        "needs nothing",
-        "no service records"
+        "needs nothing"
       ],
       "spanish": [
         "bien mantenido",
@@ -2597,13 +2596,7 @@
         "tengo todos los recibos",
         "tengo recibos",
         "servicio reciente",
-        "no necesita nada",
-        "filtro de aire sucio",
-        "mantenimiento atrasado",
-        "sin registros de servicio",
-        "servicio de transmisión atrasado",
-        "necesita cambio de refrigerante",
-        "filtro de aire faltante"
+        "no necesita nada"
       ]
     },
     "positive_replaced": {
@@ -9900,12 +9893,7 @@
         "p0018": "Crank/cam timing correlation — jumped timing / stretched chain, serious engine work",
         "p0019": "Crank/cam timing correlation — jumped timing / stretched chain, serious engine work",
         "p0606": "Powertrain control module (PCM/ECM) fault — costly electronics",
-        "p0607": "Powertrain control module (PCM/ECM) fault — costly electronics",
-        "po700": "Transmission control system fault — sensor to full rebuild; scan + test-drive before buying",
-        "po730": "Wrong gear ratio — internal clutch/band wear, usually expensive rebuild",
-        "po740": "Torque converter clutch — converter/solenoid, can be costly",
-        "po750": "Shift solenoid — internal access, moderate to high cost",
-        "po016": "Crank/cam timing correlation — jumped timing / stretched chain, serious engine work"
+        "p0607": "Powertrain control module (PCM/ECM) fault — costly electronics"
       },
       "english": [
         "P0016",
@@ -11618,6 +11606,19 @@
         ],
         "flipper_note": "broken gauge cluster = cheap repair; this is NOT odometer fraud (that is odometer_discrepancy, haircut-only)"
       }
+    },
+    "deferred_maintenance": {
+      "severity": "YELLOW",
+      "cost_estimate": "No/overdue service history — budget an inspection + catch-up service; unknown deferred wear.",
+      "verify_question": "Do you have any service records or know when major services were last done?",
+      "english": [
+        "no service records"
+      ],
+      "spanish": [
+        "mantenimiento atrasado",
+        "sin registros de servicio",
+        "servicio de transmisión atrasado"
+      ]
     }
   },
   "contradictions": {
@@ -12055,11 +12056,6 @@
     "p0019": "Crank/cam timing correlation — jumped timing / stretched chain, serious engine work",
     "p0606": "Powertrain control module (PCM/ECM) fault — costly electronics",
     "p0607": "Powertrain control module (PCM/ECM) fault — costly electronics",
-    "po700": "Transmission control system fault — sensor to full rebuild; scan + test-drive before buying",
-    "po730": "Wrong gear ratio — internal clutch/band wear, usually expensive rebuild",
-    "po740": "Torque converter clutch — converter/solenoid, can be costly",
-    "po750": "Shift solenoid — internal access, moderate to high cost",
-    "po016": "Crank/cam timing correlation — jumped timing / stretched chain, serious engine work",
     "p0420": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
     "p0421": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
     "p0430": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
@@ -12171,22 +12167,7 @@
     "p0191": "Fuel pressure / pump — moderate",
     "p0193": "Fuel pressure / pump — moderate",
     "p0230": "Fuel pressure / pump — moderate",
-    "p0231": "Fuel pressure / pump — moderate",
-    "po420": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
-    "po430": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
-    "po300": "Misfire — often coils/plugs, but verify it isn't low compression",
-    "po301": "Misfire — often coils/plugs, but verify it isn't low compression",
-    "po302": "Misfire — often coils/plugs, but verify it isn't low compression",
-    "po303": "Misfire — often coils/plugs, but verify it isn't low compression",
-    "po304": "Misfire — often coils/plugs, but verify it isn't low compression",
-    "po171": "Lean/rich fuel trim — vacuum leak, MAF, or fuel issue",
-    "po174": "Lean/rich fuel trim — vacuum leak, MAF, or fuel issue",
-    "po128": "Coolant/thermostat — usually thermostat, cheap to moderate",
-    "po455": "EVAP/gas-cap leak — often just the gas cap, usually cheap",
-    "po442": "EVAP/gas-cap leak — often just the gas cap, usually cheap",
-    "po340": "Crank/cam position sensor — moderate",
-    "po011": "Variable valve timing (VVT) — often oil/solenoid, can hint timing wear",
-    "po014": "Variable valve timing (VVT) — often oil/solenoid, can hint timing wear"
+    "p0231": "Fuel pressure / pump — moderate"
   },
   "feature_word_blacklist": {
     "_warning": "NEVER add these to any dealer category and NEVER score them. Appear equally in private+dealer; destroy precision. Reference only.",
