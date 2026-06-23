@@ -1,5 +1,5 @@
 {
-  "version": "4.38",
+  "version": "4.40",
   "updated": "2026-06-21",
   "description": "CarFlip detection keyword library for Facebook Marketplace seller descriptions. Synthesized from 5 AI analyses + 80 real listings.",
   "_philosophy": {
@@ -456,7 +456,18 @@
         "se apaga conduciendo",
         "se apaga mientras conduce",
         "se apaga en el camino",
-        "se apaga de repente manejando"
+        "se apaga de repente manejando",
+        "desvielado",
+        "motor desvielado",
+        "está desvielado",
+        "esta desvielado",
+        "biela sonando",
+        "bielas sonando",
+        "biela fundida",
+        "sonando la biela",
+        "tira biela",
+        "tirando biela",
+        "golpe de biela"
       ],
       "repair_cost": {
         "parts_only_usd": [
@@ -698,7 +709,20 @@
         "stuck in drive",
         "won't go into park",
         "gear selector stuck",
-        "shifter stuck"
+        "shifter stuck",
+        "rolls in park",
+        "has no park",
+        "it has no park",
+        "no park",
+        "won't hold park",
+        "wont hold park",
+        "doesn't hold park",
+        "does not hold park",
+        "won't stay in park",
+        "wont stay in park",
+        "rolls while in park",
+        "no longer holds park",
+        "rolls in neutral and park"
       ],
       "spanish": [
         "transmisión fallando",
@@ -764,7 +788,6 @@
         "volante desgastado",
         "volante bimasa",
         "transmisión manual",
-        "transmisión automática",
         "velocidad patinando",
         "vibración al acelerar",
         "tarda en cambiar",
@@ -898,7 +921,10 @@
         "no sale de park",
         "no sale de parking",
         "no cambia de velocidad",
-        "no entra en park"
+        "no entra en park",
+        "no queda en park",
+        "no se queda en park",
+        "rueda en park"
       ],
       "repair_cost": {
         "parts_only_usd": [
@@ -1676,22 +1702,7 @@
         "p0191": "Fuel pressure / pump — moderate",
         "p0193": "Fuel pressure / pump — moderate",
         "p0230": "Fuel pressure / pump — moderate",
-        "p0231": "Fuel pressure / pump — moderate",
-        "po420": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
-        "po430": "Catalytic converter inefficiency — drivable, fails emissions; cat ~$300–$2000",
-        "po300": "Misfire — often coils/plugs, but verify it isn't low compression",
-        "po301": "Misfire — often coils/plugs, but verify it isn't low compression",
-        "po302": "Misfire — often coils/plugs, but verify it isn't low compression",
-        "po303": "Misfire — often coils/plugs, but verify it isn't low compression",
-        "po304": "Misfire — often coils/plugs, but verify it isn't low compression",
-        "po171": "Lean/rich fuel trim — vacuum leak, MAF, or fuel issue",
-        "po174": "Lean/rich fuel trim — vacuum leak, MAF, or fuel issue",
-        "po128": "Coolant/thermostat — usually thermostat, cheap to moderate",
-        "po455": "EVAP/gas-cap leak — often just the gas cap, usually cheap",
-        "po442": "EVAP/gas-cap leak — often just the gas cap, usually cheap",
-        "po340": "Crank/cam position sensor — moderate",
-        "po011": "Variable valve timing (VVT) — often oil/solenoid, can hint timing wear",
-        "po014": "Variable valve timing (VVT) — often oil/solenoid, can hint timing wear"
+        "p0231": "Fuel pressure / pump — moderate"
       },
       "cost_estimate": "Varies — usually $150–$2,000",
       "verify_question": "What's the exact code? Ask for an OBD scan; confirm it isn't transmission/timing.",
