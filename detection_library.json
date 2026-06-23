@@ -1,5 +1,5 @@
 {
-  "version": "4.36",
+  "version": "4.38",
   "updated": "2026-06-21",
   "description": "CarFlip detection keyword library for Facebook Marketplace seller descriptions. Synthesized from 5 AI analyses + 80 real listings.",
   "_philosophy": {
@@ -687,7 +687,18 @@
         "trans problem",
         "trans issue",
         "wont shift",
-        "does not shift"
+        "does not shift",
+        "stuck in park",
+        "won't come out of park",
+        "wont come out of park",
+        "will not come out of park",
+        "won't shift out of park",
+        "wont shift out of park",
+        "locked in park",
+        "stuck in drive",
+        "won't go into park",
+        "gear selector stuck",
+        "shifter stuck"
       ],
       "spanish": [
         "transmisión fallando",
@@ -882,7 +893,12 @@
         "falla de transmision",
         "falla la transmision",
         "no hace cambios",
-        "no agarra reversa"
+        "no agarra reversa",
+        "atascado en park",
+        "no sale de park",
+        "no sale de parking",
+        "no cambia de velocidad",
+        "no entra en park"
       ],
       "repair_cost": {
         "parts_only_usd": [
@@ -1089,7 +1105,13 @@
         "for parts or repair",
         "tow away",
         "needs engine control module",
-        "needs engine work"
+        "needs engine work",
+        "as a roller",
+        "selling as a roller",
+        "sold as a roller",
+        "it's a roller",
+        "its a roller",
+        "just a roller"
       ],
       "spanish": [
         "para repuestos",
@@ -4710,7 +4732,6 @@
         "just needs",
         "easy fix",
         "high miles",
-        "serious buyers only",
         "clicking noise",
         "squealing noise",
         "rattling noise",
@@ -10759,7 +10780,8 @@
         "showroom condition",
         "mechanic inspected",
         "keys in hand today",
-        "detailed to perfection"
+        "detailed to perfection",
+        "serious buyers only"
       ],
       "spanish": [
         "solo efectivo",
